@@ -1,3 +1,4 @@
+import PokemonSearch from "./PokemonSearch";
 'use client';
 
 import { useState } from 'react';
