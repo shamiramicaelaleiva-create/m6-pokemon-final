@@ -9,6 +9,8 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .pokemon-container {
@@ -74,4 +76,33 @@ li {
 .loading {
   color: #0077b6;
   font-weight: bold;
+}
+@media (max-width: 600px) {
+  .pokemon-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+    margin: 0 0 10px 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  img {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  li {
+    font-size: 14px;
+  }
 }
