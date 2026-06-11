@@ -1,4 +1,4 @@
-import PokemonSearch from './PokemonSearch';
+import PokemonSearch from "./PokemonSearch";
 
 export default function Page() {
   return (
