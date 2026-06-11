@@ -2,23 +2,23 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
-  padding: 20px;
 }
 
 main {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .pokemon-container {
   background: white;
   padding: 25px;
   border-radius: 12px;
-  box-shadow:
-    0 0 10px #1b1988,
-    0 0 20px #030608,
-    0 0 30px #2e2bc9;
+ box-shadow:
+  0 0 15px #1b1988,
+  0 0 30px #2e2bc9,
+  0 0 45px #5f5cff;
   width: 350px;
   text-align: center;
 }
